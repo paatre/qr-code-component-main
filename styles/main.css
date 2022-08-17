@@ -16,8 +16,10 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Outfit', sans-serif;
 }
 
 main {
@@ -53,7 +55,6 @@ main {
     flex-direction: column;
     gap: 16px;
     padding: 24px 8px;
-    font-family: 'Outfit', sans-serif;
     text-align: center;
 }
 
@@ -65,4 +66,14 @@ main {
     font-weight: 400;
     font-size: 15px;
     color: gray;
+}
+.attribution {
+    position: absolute;
+    bottom: 16px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
