@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --main-background: hsl(212, 45%, 89%);
+    --default-shadow: hsl(0, 0%, 88%);
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 1440px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background-color: var(--main-background);
+    box-shadow: 0 16px 24px 4px var(--default-shadow);
+}
+
+.qr-container {
+    width: 325px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: white;
+    box-shadow: 0 16px 24px 4px var(--default-shadow);
+}
+
+.qr-container img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.qr-container .body-copy {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 8px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+.qr-container .body-copy .title {
+    font-weight: 700;
+}
+
+.qr-container .body-copy .main-text {
+    font-weight: 400;
+    font-size: 15px;
+    color: gray;
+}
