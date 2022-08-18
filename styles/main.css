@@ -29,7 +29,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 16px;
+    position: relative;
     background-color: var(--main-background);
     box-shadow: 0 16px 24px 4px var(--default-shadow);
 }
@@ -67,6 +67,7 @@ main {
     font-size: 15px;
     color: gray;
 }
+
 .attribution {
     position: absolute;
     bottom: 16px;
